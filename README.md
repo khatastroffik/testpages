@@ -1,4 +1,9 @@
 # testpages
 PoC for GH pages
 
-this pages should use the Hacker theme...
+This site use any of the following pre-defined themes (may change without announcement):
+
+- https://github.com/pages-themes/hacker
+- https://github.com/pages-themes/cayman
+
+

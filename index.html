@@ -1,13 +1,14 @@
 ---
 layout: default
-title: some posting
+title: Blog
 ---
-<h1>list of postings</h1>
-
+<h1>Recent Posts</h1>
 <ul>
 {% for post in site.posts %}
     <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a> {{ post.date | date: "%d.%m.%Y"}} also {{ post.date | date_to_string: "ordinal", "DE" }}
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <br />
+    <span style="font-size: smaller;">{{ post.date | date: "%d.%m.%Y"}}</span>
     <!--{{ post.excerpt }}-->
     </li>
 {% endfor %}

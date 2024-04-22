@@ -11,5 +11,6 @@ This site use any of the following pre-defined themes (may change without announ
 
 # Liquid & Jekyll
 
-- [Liquid Filters](https://jekyllrb.com/docs/liquid/filters/)
+- [Liquid: Filters](https://jekyllrb.com/docs/liquid/filters/)
+- [Liquid: Posts](https://jekyllrb.com/docs/posts/)
 
